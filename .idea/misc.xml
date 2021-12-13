@@ -3,10 +3,45 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21851851851851853" />
         <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/backpink.xml" value="0.23703703703703705" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/gradientbottom.xml" value="0.1787037037037037" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/home.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/itemback.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/logout_24.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/password.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/person.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/roundedborder.xml" value="0.1787037037037037" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/roundedbtn.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/roundlay.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/seachback.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/transparent.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/drawable/zip.xml" value="0.17407407407407408" />
         <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/activity_paimentdetails.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/activity_retrieve.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/checkout_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/fragment_checkout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/fragment_contact.xml" value="0.25" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/fragment_edit_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/fragment_item_detail.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/fragment_log.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/fragment_prev_orders.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/fragment_profile.xml" value="0.20625" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/fragment_shop.xml" value="0.33" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/fragment_sign.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/item_detail.xml" value="0.33" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/item_prev.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/layout/item_shop.xml" value="0.33" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/menu/bottomnav.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/menu/logmenu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/menu/search.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bubale-Server/AndroidStudioProjects/BubaleApp/app/src/main/res/xml/network_security_config.xml" value="0.1" />
       </map>
     </option>
   </component>

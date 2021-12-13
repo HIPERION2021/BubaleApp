@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp"
+    tools:context=".fragments.logFragment">
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:drawableRight="@drawable/person"
+        android:hint="Username"
+        android:inputType="text"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="50dp"
+        android:drawableRight="@drawable/password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="50dp"
+        android:text="LOG-IN" />
+
+    <android.widget.Button
+        android:id="@+id/btnforgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="135dp"
+        android:background="@drawable/roundedbtn"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Forgot your Password?"
+        android:textColor="#F1709C"
+        android:textSize="10dp" />
+
+</FrameLayout>
+

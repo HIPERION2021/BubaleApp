@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.shopFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvItems"
+            android:layout_width="match_parent"
+            android:layout_height="658dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:padding="8dp" />
+
+        <LinearLayout
+            android:id="@+id/lysearch"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#F1709C"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp">
+
+
+            <EditText
+                android:id="@+id/etSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/seachback"
+                android:hint="SEARCH..."
+                android:inputType="text"
+                android:paddingLeft="25dp"
+                android:textColor="#FF732828"
+                tools:ignore="TouchTargetSizeCheck"
+                tools:layout_marginBottom="0dp" />
+
+            <android.widget.Button
+                android:id="@+id/btnsearch"
+                android:layout_width="35dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/search"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

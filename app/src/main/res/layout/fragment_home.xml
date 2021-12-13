@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.homeFragment">
+
+    <RelativeLayout
+        android:id="@+id/homelay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prevOr"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="33dp"
+            android:text="FIRST NAME:"
+            android:textColor="#FF732828" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="15dp"
+            android:text="LAST NAME:"
+            android:textColor="#FF732828" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="15dp"
+            android:text="E-MAIL:"
+            android:textColor="#FF732828" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="15dp"
+            android:text="STREET ADDRESS:"
+            android:textColor="#FF732828" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="15dp"
+            android:text="STREET ADDRESS 2:"
+            android:textColor="#FF732828" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="15dp"
+            android:text="ZIP:"
+            android:textColor="#FF732828" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="135dp"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FF732828"
+            android:textSize="40dp"
+            android:textStyle="bold|italic" />
+
+        <android.widget.Button
+            android:id="@+id/btncontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="237dp"
+            android:layout_marginEnd="36dp"
+            android:layout_toStartOf="@+id/btnprofile"
+            android:layout_toEndOf="@+id/prevOr"
+            android:background="@drawable/roundedborder"
+            android:text="contact"
+            android:textColor="#ED6490" />
+
+        <android.widget.Button
+            android:id="@+id/prevOr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="239dp"
+            android:background="@drawable/roundedborder"
+            android:text="Orders"
+            android:textColor="#ED6490" />
+
+        <android.widget.Button
+            android:id="@+id/btnprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="239dp"
+            android:layout_marginEnd="35dp"
+            android:background="@drawable/roundedborder"
+            android:text="Profile"
+            android:textColor="#ED6490" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="156dp"
+            android:layout_height="121dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="135dp"
+            android:src="@drawable/bubal_logo1" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="35dp"
+            android:text="Please note: if no address is set,You wont be able to make any purchase!!."
+            android:textColor="#FF732828" />
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnprofile"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="35dp"
+            android:text="TextView"
+            android:textColor="#FF732828" />
+
+        <TextView
+            android:id="@+id/tvlast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvname"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="35dp"
+            android:text="TextView"
+            android:textColor="#FF732828" />
+
+        <TextView
+            android:id="@+id/tvmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvlast"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="35dp"
+            android:text="TextView"
+            android:textColor="#FF732828" />
+
+        <TextView
+            android:id="@+id/tvstreet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvmail"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="35dp"
+            android:text="TextView"
+            android:textColor="#FF732828" />
+
+        <TextView
+            android:id="@+id/tvstreet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvstreet"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="35dp"
+            android:text="TextView"
+            android:textColor="#FF732828" />
+
+        <TextView
+            android:id="@+id/tvzip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvstreet2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="35dp"
+            android:text="TextView"
+            android:textColor="#FF732828" />
+
+    </RelativeLayout>
+</FrameLayout>

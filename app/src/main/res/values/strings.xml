@@ -2,5 +2,19 @@
     <string name="app_name">BubaleApp</string>
     <string name="LOGIN">LOGIN</string>
     <string name="SIGNIN">SIGN IN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
 
+    <!-- Paste BOTH strings as required -->
+    <string name="back4app_app_id">ispf389mfyoOxq0mClqKPBBgACbePce0DpxvUpjW</string>
+    <string name="back4app_client_key">RyI5aTqSQAefPj9lirLoIxQiOqbPv0g5m1eE7NUU</string>
+
+    <string name="PAYPAL_CLIENT_ID">AQCMAx2E27Cek6bKztSkX31N7sJao4g-GMtCOWuzIksdw8Rfvx65pOBDkthsZF6VnW1lQ6nKNWorYG3_</string>
+    <string name="MAIL_USER">bubadevelopment@gmail.com</string>
+    <string name="MAIL_PASS">Agat@2015!</string>
+    <string name="home">HOME</string>
+    <string name="shop">SHOP</string>
+    <string name="cart">CART</string>
+    <string name="logout">LOGOUT</string>
 </resources>
